@@ -44,7 +44,7 @@ Is Monday before or after Friday ?
 
 !SLIDE
 
-# relativity
+# code
 
 ```ruby
 require 'relativity'
