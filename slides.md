@@ -3,9 +3,10 @@
 !SLIDE
 
 # relativity
-# EntityMap
 
 ## @peter_v
+
+(looking for a new project ;-)
 
 !SLIDE
 
@@ -127,3 +128,69 @@ if payday.today?
   prepare_paycheck
 end
 ```
+
+!SLIDE
+
+# EntityMap
+
+## @peter_v
+
+!SLIDE
+
+# in ActiveRecord
+
+  
+```ruby
+daisy.children # => [#<Child:0x9275fe8 @name="Peter">]
+peter.mother # => #<Mother:0x964c518 @name="Maria">
+```
+Huh ??
+
+!SLIDE
+
+# ORMs
+
+## ActiveRecord
+## Sequel
+## DataMapper
+
+All very "database" driven  
+But a database is consistent ...
+
+!SLIDE
+
+# Entity-Relationship map
+
+Business Objects and relations  
+Limitation to "pointer"/"foreign key"  
+=> only "relates from, to, :as"
+
+!SLIDE
+
+# Wishlist(1)
+
+* it "handles belongs_to - has_many atomically in 1 place"
+* it "has identity_map for entities"
+* it "works with a Plain Old Ruby Object"
+
+!SLIDE
+
+# Wishlist(2)
+
+* it "can be persisted in 1 command"
+* it "will check all validations before persisting"
+* it "the complete map can be marshalled"
+
+!SLIDE
+
+# Wishlist(3)
+
+* it "works with ORMs (ActiveRecord, Sequel, Datamapper)"
+* it "works with nested_attributes, SimpleForm etc."
+
+!SLIDE
+
+# questions ?
+
+### other relationships solutions ?
+### how to build/publish a gem ?
