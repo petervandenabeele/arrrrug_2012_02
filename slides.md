@@ -123,7 +123,7 @@ if weekend.include?(Time.now)
  go_party
 end
 
-if pay_day.today?
+if payday.today?
   prepare_paycheck
 end
 ```
