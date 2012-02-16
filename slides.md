@@ -23,6 +23,25 @@ DateTime.new # => #<DateTime: -4712-01-01T00:00:00+00:00 ((0j,0s,0n),+0s,2299161
 
 "7 to 5" # => "7 to 5" ??
 ```
+
+!SLIDE
+
+# time is relative
+### time
+### day
+### week
+### month
+### quarter
+### year
+
+!SLIDE
+
+# operators
+### ==
+### include?
+### no <=> operator !
+Is Monday before or after Friday ?
+
 !SLIDE
 
 # relativity
@@ -38,6 +57,7 @@ seven_to_five = DayTimeRange.new("7 to 17")
 night_shift = DayTimeRange.new("21:55 until 6:55:30")
 # => 21:55:00 until 06:55:30
 ```
+
 !SLIDE
 
 # persisting
