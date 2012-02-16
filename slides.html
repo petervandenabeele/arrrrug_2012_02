@@ -27,18 +27,30 @@
     <section class='slide'>
       <div class='spacer top'></div>
       <div class='content'>
-        <h1>A Title Slide</h1>
+        <h1>relativity</h1>
         
-        <h2>me@example.com</h2>
+        <h1>EntityMap</h1>
+        
+        <h2>@peter_v</h2>
       </div>
       <div class='spacer bottom'></div>
     </section>
     <section class='slide'>
       <div class='spacer top'></div>
       <div class='content'>
-        <h1>Some sample code</h1>
+        <h1>"7 to 5"</h1>
         
-        <p><textarea class='code' display='none' mode='ruby'>def method&#x000A;  puts "Hello, World"&#x000A;end</textarea>
+        <p><textarea class='code' display='none' mode='ruby'>Time.new # => 2012-02-15 21:56:50 0100&#x000A;require 'date'&#x000A;Date.new # => #<Date: -4712-01-01 ((0j,0s,0n),+0s,2299161j)>&#x000A;DateTime.new # => #<DateTime: -4712-01-01T00:00:00+00:00 ((0j,0s,0n),+0s,2299161j)>&#x000A;"7 to 5" # => "7 to 5" ??</textarea>
+    </p>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>relativity</h1>
+        
+        <p><textarea class='code' display='none' mode="&#x000A;require 'relativity'">start_at = DayTime.new("9") # => 09:00:00&#x000A;end_at = DayTime.new("12:35:30") # => 12:35:30&#x000A;now = DayTime.new # => 22:09:42&#x000A;&#x000A;seven_to_five = DayTimeRange.new("7 to 17", :separator => " to ")&#x000A;# => 07:00:00 to 17:00:00&#x000A;night_shift = DayTimeRange.new("21:55 until 6:55:30")&#x000A;# => 21:55:00 until 06:55:30</textarea>
     </p>
       </div>
       <div class='spacer bottom'></div>
